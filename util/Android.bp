@@ -8,4 +8,7 @@ android_library {
 
     srcs: ["src/**/*.java"],
 
+    static_libs: [
+        "telephony-ext",
+    ],
 }
