@@ -1,0 +1,11 @@
+android_library {
+
+    name: "choose-util",
+
+    optimize: {
+        enabled: false,
+    },
+
+    srcs: ["src/**/*.java"],
+
+}
